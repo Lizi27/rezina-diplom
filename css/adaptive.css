@@ -1,0 +1,171 @@
+@media (min-width: 641px) and (max-width: 1200px) {
+    .header {
+        padding: 20px;
+    }
+
+    .info {
+        margin: 0;
+    }
+
+    .post-list-mini .info {
+        margin-left: 30px;
+    }
+
+    .top {
+        font-size: 18px;
+    }
+
+    .trend-block {
+        flex: 0 0 calc(50% - 6px);
+        max-width: 50%;
+    }
+
+    .news, .shop {
+        width: 100%;
+    }
+
+    .aside {
+        width: 35%;
+    }
+
+    .post-list-news {
+        display: block;
+
+    }
+
+    .post-list-news:not(:last-child) {
+        border-bottom: 3px solid #eee;
+        padding-bottom: 25px;
+    }
+
+    .list-news {
+        width: 60%;
+    }
+
+    .post-list-news .image img {
+        width: 100%;
+    }
+
+    .news-tag-blog {
+        margin-top: 20px;
+    }
+
+    .footer {
+        margin: 0px;
+
+    }
+
+    .shop-info {
+        padding: 1.25em;
+        margin-top: -20px !important;
+        margin-bottom: 40px !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .shop-col {
+        flex: 0 0 calc(50% - 25px);
+        max-width: 50%;
+    }
+
+    .shop-col img {
+        width: 85%;
+    }
+
+    .social-icon {
+        width: 25px;
+        background-size: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width:641) and (max-width: 1200px) and (orientation: landscape) {
+
+    .trend-block {
+        flex: 0 0 calc(25% - 6px);
+        max-width: 25%;
+    }
+}
+@media (max-width: 640px) and (orientation: portrait) {
+
+    .trend-block {
+        flex: 0 0 calc(50% - 6px);
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 640px) {
+    
+    .header-menu {
+        display: none;
+    }
+
+    .top {
+        font-size: 16px;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .news {
+        display: block;
+    }
+
+    .list-news, .aside {
+        width: 100%;
+    }
+
+    .aside {
+        margin-top: 40px;
+    }
+
+    .shop-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .trend-block {
+        flex: 0 0 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .titer-title {
+        font-size: 18px;
+    }
+
+    .container {
+        margin-top: 180px;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .titer-title {
+        margin-top: 30px;
+        margin-bottom: 180px;
+    }
+    .mobile {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .mobile img {
+        width: 24px;
+        color: #fff;
+    }
+
+    .popup-container {
+        margin: 0 auto 0px auto;
+        width: 100%;
+    }
+}
+
+   
